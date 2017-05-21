@@ -9,8 +9,8 @@
     "start": "check-node-version --node '>= 6.7.0' && nodemon server/start.js",
     "build": "check-node-version --node '>= 6.7.0' && webpack",
     "build-watch": "check-node-version --node '>= 6.7.0' && webpack -w",
-    "build-css": "node-sass public/stylesheets/style.scss -o public/stylesheets",
-    "build-watch-css": "node-sass -w public/stylesheets/style.scss -o public/stylesheets"
+    "build-css": "node-sass public/css/style.scss -o public/css",
+    "build-watch-css": "node-sass -w public/css/style.scss -o public/css"
   },
   "repository": {
     "type": "git",
@@ -34,8 +34,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",
-    "react-router": "^4.0.0",
-    "react-router-dom": "^4.0.0",
+    "react-router-dom": "^4.1.1",
     "redux": "^3.6.0",
     "redux-logger": "^3.0.1",
     "redux-thunk": "^2.2.0",
