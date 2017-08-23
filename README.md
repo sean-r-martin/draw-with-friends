@@ -1,4 +1,4 @@
-# React Boilerplate code
+# Draw with Friends
 
 #### Purpose:
-* boilerplate code for future React projects.
+* an online version of Pictionary.
